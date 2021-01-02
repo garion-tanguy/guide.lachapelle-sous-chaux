@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Be Vietnam Regular", sans-serif;
+    src: url(../fonts/BeVietnam-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Be Vietnam Medium", sans-serif;
+    src : url(../fonts/BeVietnam-Medium.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Be Vietnam SemiBold", sans-serif;
+    src : url(../fonts/BeVietnam-SemiBold.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Be Vietnam Bold", sans-serif;
+    src : url(../fonts/BeVietnam-Bold.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Be Vietnam ExtraBold", sans-serif;
+    src : url(../fonts/BeVietnam-ExtraBold.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Be Vietnam Light", sans-serif;
+    src : url(../fonts/BeVietnam-Light.ttf) format('ttf');
+}
+@font-face {
+    font-family : "Alata Regular", sans-serif;
+    src : url(../fonts/Alata-Regular.ttf) format('ttf');
+}
