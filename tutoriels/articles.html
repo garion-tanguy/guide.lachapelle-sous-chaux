@@ -7,6 +7,9 @@
 
     <!-- Autres styles -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-font.css">
+    <link rel="stylesheet" href="../css/font/style.css">
+
 
     <!-- Styles Bootstrap 4 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -34,13 +37,131 @@
     <nav class="container mt-3 ">
         <ul class="nav justify-content-center align-items-center">
             <li class="nav-item"><a class="nav-link text-uppercase" href="../tutoriels.html">Tutoriels</a></li>
-            <li class="nav-item"><a class="nav-link" href="../index.html"><img src="../img/logo.png" alt="Logo de la Mairie de Lachapelle-Sous-Chaux"></a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html"><img class="w-75" src="../img/logo.png" alt="Logo de la Mairie de Lachapelle-Sous-Chaux"></a></li>
             <li class="nav-item"><a class="nav-link text-uppercase" href="../a-propos.html">à propos</a></li>
         </ul>
     </nav>
+    <img class="mt-5 w-100" src="../img/tuto-articles/tuto-article.png" alt="">
 </header>
 
-<main>
+<main id="tuto-article">
+    <section id="retour">
+        <a href="javascript:history.go(-1)">
+            <span class="icon-arrow-left"></span>
+        </a>
+    </section>
+
+    <section class="col-8 offset-2">
+        <iframe class="col-6 offset-3" width="560" height="355" src="https://www.youtube.com/embed/UJfktQNBeNg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-12 d-flex flex-column align-items-center">
+            <p>
+                1. Lorsque vous êtes dans le tableau de bord de votre site, rendez vous sur l’onglet article qui se trouve dans la barre à gauche de votre écran.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-1.PNG" alt="">
+            <p>
+                2. Vous atterrissez sur la liste de tous vos articles.
+                Quand ils sont trop nombreux, ils peuvent être rangés sur plusieurs pages.
+                Vous pouvez les consulter en cliquant sur les flèches à droite de votre écran.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-2.PNG" alt="">
+            <p>
+                3. Cliquez sur le bouton « ajouter » tout en haut de votre écran, à côté du titre « Articles ».
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-2b.png" alt="">
+            <p>
+                4. Une nouvelle page s’ouvre.
+                Vous devez tout d’abord entrer le titre de votre article.
+                Dans cet exemple, disons que l’article s’appelle « Couvre-feu obligatoire entre 20h et 6h ».
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-3.PNG" alt="">
+            <p>
+                5. Il est maintenant temps de créer le contenu de l’article. Pour cela vous devez cliquer sur le bouton “modifier avec Elementor”.
+                <br> <br>
+                Il y a plusieurs manières d’écrire du contenu sur wordpress. Nous avons décidé d’utiliser le plug-in Elementor qui facilite grandement la mise en page de vos articles.
+                <br> <br>
+                Pour créer le contenu sur Elementor, un tutoriel complet est dédié à ce sujet, juste ici.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-4.png" alt="">
+            <p>
+                6.  Quand vous avez terminé la mise en page, rendez-vous dans les réglages.
+                Pour cela cliquez sur l’icône engrenage en haut à droite.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-5b.png" alt="">
+            <p>
+                7. Un menu va s’ouvrir à droite de votre écran (il se peut qu’il soit déjà ouvert).
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-5c.PNG" alt="">
+            <p>
+                8. Dans ce menu, vous retrouverez les informations générales de votre article. <br>
+                <br>
+                Dans visibilité, vous avez plusieurs options :
+            </p>
+            <ul id="liste-article">
+               <li>
+                   public = tout le monde peut le voir
+               </li>
+                <li>
+                    privé = seules les personnes gérant le site web peuvent le voir
+                </li>
+                <li>
+                    mot de passe = l’article est publié sur le site mais protégé par un mot de passe.
+                    Seules les personnes le possédant peuvent y accéder.
+                </li>
+            </ul>
+            <p>
+                Dans publier : vous pouvez choisir de publier l’article immédiatement ou de programmer sa publication.
+                Si vous ne touchez à rien, il sera automatiquement publié à l’instant même où vous confirmerez la publication.
+            </p>
+            <img class="w-50" src="../img/tuto-articles/image-5e.PNG" alt="">
+            <p>
+                Dans Yoast SEO, on retrouve un bilan du plugin Yoast qui vous indique si le référencement de votre article est correct (Si c’est le cas, tous les voyants sont au vert).
+                Si vous ne l’avez pas fait ou si les voyants sont au rouge ou orange, ce tutoriel vous indique comment utiliser Yoast et bien référencer votre article.
+                <br> <br>
+                Le permalien, c’est le lien de votre article. Vous pouvez le changer si vous estimez que le lien est trop long ou pas assez lisible.
+                <br> <br>
+                Dans “catégories”, vous devez absolument cocher la case “Actualités”.
+                L’article sera ainsi classé et apparaîtra dans les articles récents sur la page d’accueil et sur la page des actualités.
+                Sinon, l’article ne sera pas visible des utilisateurs.
+                <br> <br>
+                [ Point info : Le référencement, quesako ? Quand un article est bien référencé, il apparaît dans les premiers résultats du moteur de recherche, selon la requête tapée par l’utilisateur dans la barre de recherche.
+                Dans notre cas, il s’agit d’un référencement naturel (on ne paie pas pour apparaître dans les premiers résultats).
+                Pour permettre aux moteurs de recherche de mettre notre site dans les premiers résultats d’une recherche, il faut remplir certains critères, comme renseigner des mots-clés par exemple. ]
+            </p>
+            <img class="w-50" src="../img/tuto-articles/image-5f.PNG" alt="">
+            <p>
+                Étiquettes : Vous pouvez ajouter des mots-clés qui décrivent vos articles afin que les utilisateurs et les moteurs de recherche le retrouvent plus facilement sur votre site.
+                Cela s’avère utile si un utilisateur recherche “lachapelle-sous-chaux couvre-feu” sur Google dans notre cas.
+                <br> <br>
+                Ajoutez l’image qui sera mise en avant sur votre article. Il s'agit souvent de l’image que vous aurez mis en première place dans votre article, mais elle peut différer si vous le souhaitez.
+                Celle-ci s’affichera sur la page d’accueil et d’actualité pour illustrer votre article.  il est nécessaire que vous l’ajoutiez pour garder une belle mise en page.
+                <br> <br>
+                Ajoutez un extrait à votre article. Vous pouvez reprendre les premières lignes de votre article ou en faire un résumé.
+                Cet extrait apparaîtra sur la page d’accueil et la page d’actualité, il est nécessaire que vous le complétiez pour garder une belle mise en page.
+            </p>
+            <img class="w-50" src="../img/tuto-articles/image-5g.PNG" alt="">
+            <p>
+                Décochez les deux cases dans la section commentaire. Il n’y aura ainsi pas de commentaires sous les articles.
+                <br> <br>
+                Finalement, vérifier que le modèle choisi dans Attributs d’articles est “modèle par défaut”.
+                Cette mise en page est appropriée pour les articles car on retrouve toujours le widget “article récent” à gauche des articles.
+            </p>
+            <p>
+                9. Quand vous avez terminé la mise en page et que vous êtes prêt à publier l’article, cliquez sur “Mise à jour” en haut à gauche.
+                Vous pouvez également enregistrer l’article dans les brouillons et reprendre plus tard.
+                Il y a également la possibilité de prévisualiser votre article dans un nouvel onglet.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-7.PNG" alt="">
+            <p>
+                10. Voilà le résultat sur la page d’accueil et la page actualités.
+            </p>
+            <img class="w-75" src="../img/tuto-articles/image-8.PNG" alt="">
+            <img class="w-75" src="../img/tuto-articles/image-9.PNG" alt="">
+
+        </div>
+        <div>
+
+        </div>
+    </section>
 
 </main>
 

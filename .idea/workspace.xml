@@ -10,16 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6042392-b177-402e-a48f-305dfc647eae" name="Default Changelist" comment="Page Tutoriels">
-      <change afterPath="$PROJECT_DIR$/tutoriels/agenda.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/dictionnaire.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/elementor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/newsletter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/tuto-connexion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/yoast.html" afterDir="false" />
+    <list default="true" id="e6042392-b177-402e-a48f-305dfc647eae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tutoriels/bases.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels/tuto-connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels/tuto-connexion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,11 +47,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IUT\2ème année\Projet S3\Site Tutos\css\font" />
+      <recent name="D:\IUT\2ème année\Projet S3\Site Tutos\img\tuto-articles" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609605586662</updated>
-      <workItem from="1609605587695" duration="5229000" />
+      <workItem from="1609605587695" duration="17911000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + Page d'accueil">
       <created>1609608459468</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609609066741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Création pages de tutos + Page Tuto connexion">
+      <created>1609611436788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609611436788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,13 +128,14 @@
     <MESSAGE value=".gitignore + Page d'accueil" />
     <MESSAGE value="Page à propos" />
     <MESSAGE value="Page Tutoriels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Tutoriels" />
+    <MESSAGE value="Création pages de tutos + Page Tuto connexion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création pages de tutos + Page Tuto connexion" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609609066080">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609611435918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609609066080" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609611435918" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609606749081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
