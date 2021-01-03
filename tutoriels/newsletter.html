@@ -7,6 +7,8 @@
 
     <!-- Autres styles -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-font.css">
+    <link rel="stylesheet" href="../css/font/style.css">
 
     <!-- Styles Bootstrap 4 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -27,6 +29,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
             integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
             crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -38,10 +44,215 @@
             <li class="nav-item"><a class="nav-link text-uppercase" href="../a-propos.html">à propos</a></li>
         </ul>
     </nav>
+    <img class="mt-5 w-100" src="../img/tuto-sendinblue/newsletter.png" alt="">
 </header>
 
-<main>
+<main id="tuto-newsletter">
+    <section id="retour">
+        <a href="javascript:history.go(-1)">
+            <span class="icon-arrow-left"></span>
+        </a>
+    </section>
+    <section class="col-8 offset-2">
+        <div class="accordion col-10 offset-1" id="contenu-newsletter">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-title accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne">
+                        Création d'un compte SendInBlue
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>
+                            1. Si vous n’avez pas de compte sur SendInblue. Aller à cette adresse :
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-1.png" alt="">
+                        <p>
+                            2. Puis, inscrivez-vous sur le site.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-2.png" alt="">
+                        <p>
+                            3. Une fois inscrit, vous devez vous rendre sur votre boîte mail, afin de valider votre inscription.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-3.png" alt="">
+                        <p>
+                            4. Il vous faut alors, terminer votre inscription.
+                        </p>
+                        <img class="col-8 offset-2" src="../img/tuto-sendinblue/image-4.png" alt="">
+                        <p>
+                            5. Vous devez ensuite choisir le forfait que vous souhaitez utiliser.
+                            Tout dépend du nombre de mails que vous comptez envoyer pour la newsletter.
+                            Nous pensons que la version gratuite est suffisante pour votre village.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-5.png" alt="">
+                        <p>
+                            6. Vous voilà donc sur votre tableau de bord, c’est ici que vous pourrez trouver tout ce dont vous avez besoin pour créer et programmer votre newsletter.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-title accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                        Activation du compte SendInBlue sur votre site
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>
+                            7. Vous vous retrouvez sur votre tableau de bord. Depuis celui-ci, cliquer sur votre profil en haut à droite de votre page afin de dérouler ce menu.
+                            Une fois le menu accessible, cliquez sur “SMTP & API”.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-7.png" alt="">
+                        <p>
+                            8. Vous arrivez alors sur une page qui vous donne accès à une clé permettant l’utilisation du plugin SendInBlue sur Wordpress.
+                            Cette clé, il faudra la donner à l’un des admins de votre site, afin qu’il puisse relier le plugin de votre site et le site que vous allez utiliser dans la suite de ce tutoriel.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-8.png" alt="">
+                        <p>
+                            9. Pour utiliser SendInBlue sur votre site vous devez récupérer la clé API vue précédemment.
+                            Une fois cette clé récupérer, rendez-vous dans la partie admin de votre site Wordpress.
+                            Puis, rendez-vous dans le plugin SendInBlue présent dans le menu sur votre gauche.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-9.png" alt="">
+                        <p>
+                            10. Vous vous trouvez donc dans les réglages du plugin SendInBlue installé sur votre site.
+                            Il vous propose en première étape de vous créer un compte, cependant vous en avez déjà un.
+                            Vous vous intéressez donc à la seconde étape qui est l’utilisation de la Clé API que vous avez récupéré auparavant.
+                            Vous renseignez votre Clé API dans l’encadré et vous cliquez sur le bouton “Vous connectez”.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-10.png" alt="">
+                        <p>
+                            11. Une fois connecté, vous devez voir ce résultat.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-11.png" alt="">
+                        <p>
+                            12. Si vous avez ce résultat, c’est que tout est bon pour cette partie votre site est connecté à votre compte SendInBlue.
+                        </p>
+                        <p>
+                            13. Vous venez donc de créer votre compte, et vous venez de voir comment relier votre site internet et votre compte SendInBlue.
+                            Maintenant, il faut activer les emails transactionnels.
+                            Pour cela, il vous faut envoyer un mail à cette adresse mail : <strong>contact@sendinblue.com</strong>.
+                            Voici un exemple, l’image suivante est le mail que j’ai envoyé pour activer mon compte.
+                        </p>
+                        <img class="col-8 offset-2" src="../img/tuto-sendinblue/image-12.png" alt="">
+                        <p>
+                            14. Une fois le mail envoyé, rendez-vous sur le plugin SendInBlue sur votre site Wordpress.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-13.png" alt="">
+                        <p>
+                            15. Puis, cliquez sur “Formulaires” afin d’accéder au formulaire d’inscription de la Newsletter.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-14.png" alt="">
+                        <p>
+                            16. Il va alors vous falloir éditer le formulaire présent, et vous allez arriver sur une page ou vous pouvez personnaliser votre formulaire.
+                            Ce qui n’est pas forcément nécessaire hormis pour traduire certains termes.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-15.png" alt="">
+                        <p>
+                            17. Puis vous allez descendre cette page jusqu’à la section “Processus d’inscription” où vous allez quelle est la liste liée à votre formulaire d’inscription.
+                            Retenez le nom de cette liste, vous allez en avoir besoin pour plus tard.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-16.png" alt="">                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-title accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+                        Création de la Newsletter
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>
+                            18. Retourner sur votre tableau de bord sur le site de SendInBlue. Si vous êtes sur Wordpress, j’espère que vous avez gardé votre page ouverte sinon il va falloir la rouvrir.
+                            Et si vous étiez sur la page, où vous avez récupéré votre clé API, vous pouvez cliquer sur le logo de SendInBlue qui se situe en haut à gauche de la page.
+                        </p>
+                        <p>
+                            19. Une fois revenu sur votre tableau de bord, cliquez sur Contacts.
+                            Vous arrivez alors, sur une page nommée Contacts.
+                            C’est ici que vous allez pouvoir voir toutes les personnes qui s’inscrivent sur la Newsletter de votre site internet.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-17.png" alt="">
+                        <p>
+                            20. Si vous avez bonne mémoire, vous pourrez facilement retrouver la liste reliée à votre formulaire d’inscription. Alors, pour cela il faudra vous rendre sur l’onglet Listes.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-18.png" alt="">
+                        <p>
+                            21. Vous pourrez alors retrouver la liste que vous aviez précédemment découverte, pour ce tutoriel le nom de celle-ci est “Votre première liste”.
+                            Une fois que vous avez trouvé la bonne liste il vous faut la renommer afin de bien la retrouver pour la suite.
+                            Pour cela cliquer sur le bouton “Actions” puis sur “Renommer” et vous pouvez alors la renommer comme vous le souhaitez.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-19.png" alt="">
+                        <p>
+                            22. Vous connaissez à présent le nom de la liste, où, les personnes qui s’inscrivent à la Newsletter présente sur votre site arrivent.
+                            Pour la suite, il va vous falloir retourner sur votre tableau de bord, vous allez créer votre Campagne d’email.
+                        </p>
+                        <p>
+                            23. Une fois revenu sur votre tableau de bord, cliquez sur Email qui se situe sur la gauche de votre page.
+                            Vous arrivez sur une page nommée Campagnes email.
+                            C’est ici que vous allez pouvoir créer et programmer votre/vos campagnes d’emails.
+                            Cliquez sur “Créer ma première campagne Email”.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-20.png" alt="">
+                        <p>
+                            24. Vous pouvez alors vous lancer dans la création de votre newsletter. Rester en version classique, vous n’avez pas l’utilité de choisir A/B Test.
+                            Vous avez juste besoin d’un envoi de mail classique. Il ne vous reste plus qu'à compléter les informations de la première étape.
+                            Il est nécessaire de remplir le “Nom de la campagne” pour poursuivre la création de votre newsletter. L’objet et le texte d’aperçu quant à eux ne sont pas obligatoires.
+                            Vous pouvez modifier l’email et le nom de l’expéditeur si vous le souhaitez, mais si vous avez correctement rempli votre profil lors de l’inscription, pas besoin d’y toucher.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-21.png" alt="">
+                        <p>
+                            25. Une fois que vous avez tout complété, vous pouvez vous rendre sur la prochaine étape que vous pouvez trouver en haut à droite de la page.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-22.png" alt="">
+                        <p>
+                            26. Une fois sur cette page, vous allez devoir choisir par quel moyen vous allez créer votre Newsletter. Vous avez donc le choix entre ces 3 propositions.
+                            Je vous conseille l’éditeur Drag & Drop, c’est un outil pratique, qui vous permet de créer des mails de bonne qualité qui sont agréables à lire et facilement faisables.
+                            Cliquez sur l’éditeur Drag & Drop, c’est le moyen le plus pratique de créer un email.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-23.png" alt="">
+                        <p>
+                            27. Vous venez d’arriver sur la page qui va vous permettre de créer de A à Z votre email.
+                            Ce que vous voyez sur la gauche de votre écran, est une liste d’éléments que vous pouvez prendre et déposer sur la partie centrale de votre page.
+                            Au centre de votre page, vous pouvez voir que des éléments sont déjà présents.
+                            Vous n’avez donc, plus qu’à créer le mail que vous souhaitez en retirant ou en ajoutant les éléments que vous souhaitez.
+                            Une fois que vous avez fini de créer votre mail, vous n’avez plus qu’à cliquer sur “Enregistrer & Cliquer”.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-24.png" alt="">
+                        <p>
+                            28. Une fois que vous aurez enregistré, vous allez voir ceci.
+                            C’est un aperçu du travail que vous venez de quitter, vous pouvez même avoir un aperçu mobile de ce que rend votre travail.
+                            Si vous êtes satisfait du rendu vous pouvez passer à la prochaine étape et si vous souhaitez modifier le contenu de l’email vous n’avez qu’à retravailler votre email.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-25.png" alt="">
+                        <p>
+                            29. La prochaine étape consiste à sélectionner la liste de contacts que vous avez définis auparavant. Une fois sélectionnée, vous pouvez passer à la prochaine étape.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-26.png" alt="">
+                        <p>
+                            30. Vous arrivez sur une page qui vous présente un récapitulatif de tout ce que vous venez de créer. Il ne vous reste plus qu’à cliquer sur le bouton “Programmer”.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-27.png" alt="">
+                        <p>
+                            31. Ici, vous pouvez choisir soit d’envoyer le mail dès maintenant, soit de programmer son envoi.
+                            Il ne vous reste donc qu’à choisir, et le mail s’enverra à tous les contacts que vous avez définis, au jour et à l’heure que vous avez définis.
+                        </p>
+                        <img class="w-100" src="../img/tuto-sendinblue/image-28.png" alt="">
+                        <p>
+                            32. Voilà vous venez de créer et programmer votre Newsletter.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="col-8 offset-2">
 
+
+
+        </div>
+    </section>
 </main>
 
 <footer class="py-4">
