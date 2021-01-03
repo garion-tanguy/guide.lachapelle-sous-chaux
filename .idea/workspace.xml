@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6042392-b177-402e-a48f-305dfc647eae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tutoriels/modeles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutoriels/tuto-banniere.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutoriels/elementor.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels/elementor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels/modeles.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels/modeles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels/tuto-banniere.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels/tuto-banniere.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609605586662</updated>
-      <workItem from="1609605587695" duration="19232000" />
+      <workItem from="1609605587695" duration="23274000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + Page d'accueil">
       <created>1609608459468</created>
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609628546533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Préparation des pages de tutos de la partie Elementor">
+      <created>1609629819391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609629819391</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,25 +143,26 @@
     <MESSAGE value="Page Tutoriels" />
     <MESSAGE value="Création pages de tutos + Page Tuto connexion" />
     <MESSAGE value="Création de pages tutos &quot;Les bases&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création de pages tutos &quot;Les bases&quot;" />
+    <MESSAGE value="Préparation des pages de tutos de la partie Elementor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Préparation des pages de tutos de la partie Elementor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="165" key="#SSH_Configurations" timestamp="1609629729253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629729253" />
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609628545595">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609629818653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609628545595" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629818653" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1609629793336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629793336" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609606749081">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609629858161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609606749081" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629858161" />
     <state x="845" y="250" width="425" height="539" key="ftp.server.browser" timestamp="1609629790818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
