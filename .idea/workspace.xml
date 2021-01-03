@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6042392-b177-402e-a48f-305dfc647eae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriels.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriels.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609605586662</updated>
-      <workItem from="1609605587695" duration="24313000" />
+      <workItem from="1609605587695" duration="24753000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + Page d'accueil">
       <created>1609608459468</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609634864974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correction d'un problème">
+      <created>1609635745362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609635745362</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,25 +157,26 @@
     <MESSAGE value="Création de pages tutos &quot;Les bases&quot;" />
     <MESSAGE value="Préparation des pages de tutos de la partie Elementor" />
     <MESSAGE value="Tutos Modèles, Bannière et modification sur la page du tuto de connexion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tutos Modèles, Bannière et modification sur la page du tuto de connexion" />
+    <MESSAGE value="Correction d'un problème" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction d'un problème" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="165" key="#SSH_Configurations" timestamp="1609629729253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629729253" />
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609634864229">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1609635744617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609634864229" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609635744617" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1609629793336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609629793336" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609634873463">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609635749611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609634873463" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1609635749611" />
     <state x="845" y="250" width="425" height="539" key="ftp.server.browser" timestamp="1609629790818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
