@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0a957e57-eb6c-432e-86ce-12e0504f07d9" name="Guide-Wordpress">
+        <fileTransfer rootFolder="/home/clients/1d0eef6a34623961f4a8eddbd5b13ba2" accessType="SFTP" host="s04qi.ftp.infomaniak.com" port="22" sshConfigId="acd41ad7-ff41-4fb7-9cd8-f51d616af793" sshConfig="s04qi_gtanguy2@s04qi.ftp.infomaniak.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
